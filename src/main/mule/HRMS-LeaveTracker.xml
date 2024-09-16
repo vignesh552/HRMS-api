@@ -294,7 +294,7 @@ output application/json
 						<ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-"EmailId already exists"]]></ee:set-payload>
+"EmailId already exists try another"]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
 			</otherwise>
